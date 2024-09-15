@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl5ojw7rmeipn"]
+
+[ext_resource type="PackedScene" uid="uid://bfsfecsxov3ko" path="res://test/level/foliage_ground.tscn" id="1_jurxn"]
+[ext_resource type="PackedScene" uid="uid://crbpfehcxklb4" path="res://test/level/foliage_wall.tscn" id="2_dirro"]
+
+[node name="level" type="Node3D"]
+
+[node name="foliage_ground" parent="." instance=ExtResource("1_jurxn")]
+
+[node name="foliage_wall" parent="." instance=ExtResource("2_dirro")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -4)
+
+[node name="foliage_wall2" parent="." instance=ExtResource("2_dirro")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 4)
+
+[node name="foliage_wall3" parent="." instance=ExtResource("2_dirro")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4, 1, 1.74846e-07)
+
+[node name="foliage_wall4" parent="." instance=ExtResource("2_dirro")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4, 1, -1.74846e-07)

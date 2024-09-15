@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vqug3obdcqph"
+path="res://.godot/imported/foliage_ground.obj-0b112fc6c2b2dec2b426cb7d892356fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/foliage_ground.obj-0b112fc6c2b2dec2b426cb7d892356fd.mesh"]
+
+source_file="res://test/level/foliage_ground.obj"
+dest_files=["res://.godot/imported/foliage_ground.obj-0b112fc6c2b2dec2b426cb7d892356fd.mesh", "res://.godot/imported/foliage_ground.obj-0b112fc6c2b2dec2b426cb7d892356fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

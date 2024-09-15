@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ct6jstclcapmq"
+path="res://.godot/imported/concrete_floor.obj-c7410d8e29b7e7aa4991e505b48e92f5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/concrete_floor.obj-c7410d8e29b7e7aa4991e505b48e92f5.mesh"]
+
+source_file="res://test/level/concrete_floor.obj"
+dest_files=["res://.godot/imported/concrete_floor.obj-c7410d8e29b7e7aa4991e505b48e92f5.mesh", "res://.godot/imported/concrete_floor.obj-c7410d8e29b7e7aa4991e505b48e92f5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

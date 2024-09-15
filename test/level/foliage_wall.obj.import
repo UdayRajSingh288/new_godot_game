@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmxo4lgieyk25"
+path="res://.godot/imported/foliage_wall.obj-dbfefda56ad5f9c9cf3e073a90b34fcd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/foliage_wall.obj-dbfefda56ad5f9c9cf3e073a90b34fcd.mesh"]
+
+source_file="res://test/level/foliage_wall.obj"
+dest_files=["res://.godot/imported/foliage_wall.obj-dbfefda56ad5f9c9cf3e073a90b34fcd.mesh", "res://.godot/imported/foliage_wall.obj-dbfefda56ad5f9c9cf3e073a90b34fcd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

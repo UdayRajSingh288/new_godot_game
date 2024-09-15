@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://crbpfehcxklb4"]
+
+[ext_resource type="ArrayMesh" uid="uid://bmxo4lgieyk25" path="res://test/level/foliage_wall.obj" id="1_elfah"]
+[ext_resource type="Material" uid="uid://d2od4jusfokxj" path="res://test/level/level_material.tres" id="2_6c31s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k26lo"]
+size = Vector3(8, 2, 1)
+
+[node name="foliage_wall" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_elfah")
+surface_material_override/0 = ExtResource("2_6c31s")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_k26lo")

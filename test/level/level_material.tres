@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d2od4jusfokxj"]
+
+[ext_resource type="Texture2D" uid="uid://dipq3cx5rg8dc" path="res://test/level/level_texture.png" id="1_xljvv"]
+
+[resource]
+shading_mode = 2
+diffuse_mode = 3
+specular_mode = 1
+albedo_texture = ExtResource("1_xljvv")
+roughness = 0.0
